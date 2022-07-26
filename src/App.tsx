@@ -6,6 +6,7 @@ import useTodos from "./hooks/useTodos";
 import {HashRouter, Route, Routes} from "react-router-dom";
 import BoardPage from "./components/BoardPage";
 import NavigationBar from "./components/NavigationBar";
+import "./dwStyles.css";
 
 function App() {
 

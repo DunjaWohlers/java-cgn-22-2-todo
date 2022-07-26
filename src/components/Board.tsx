@@ -12,7 +12,7 @@ type BoardProps = {
 export default function Board(props: BoardProps) {
 
     return (
-        <div>
+        <div className="board">
             <p>{props.title}</p>
             {props.todos.map((currentTodo) => <TodoCard todo={currentTodo}
                                                         advanceTodo={props.advanceTodo}
